@@ -8,28 +8,47 @@
     {
         public static void Main()
         {
-            var inputData = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            var elementsToAdd = inputData[0];
-            var countPops = inputData[1];
-            var elementToCheck = inputData[2];
-            var elements = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var n = int.Parse(Console.ReadLine());
             var stack = new Stack<int>();
-            for (int i = 0; i < elementsToAdd; i++)
+            int maxElement = 0;
+            for (int i = 0; i < n; i++)
             {
-                stack.Push(elements[i]);
+                var input = Console.ReadLine();
+                ParseInput(stack, input, ref maxElement);
             }
-            for (int i = 0; i < countPops; i++)
+            
+
+
+        }
+        private static void ParseInput(Stack<int> stack, string input, ref int maxElement)
+        {
+            var elements = input.Split();
+
+            var command = int.Parse(elements[0]);
+
+            switch (command)
             {
-                stack.Pop();
-            }
-            if (stack.Contains(elementToCheck))
-            {
-                Console.WriteLine(true);
-            }
-            else 
-            {
-                bool isEmpty = stack.Count == 0;
-                Console.WriteLine(isEmpty ? 0 : stack.Min());
+                case 1:
+                    var element = int.Parse(elements[1]);
+                    if (element > maxElement)
+                    {
+                        maxElement = element;
+                    }
+                    stack.Push(element);
+                    break;
+                case 2:
+                    element = stack.Pop();
+                    if (element == maxElement)
+                    {
+                        bool isEmpty = stack.Count == 0;
+                        maxElement = isEmpty ? 0 : stack.Max();
+                    }
+                    break;
+                case 3:
+                    Console.WriteLine(maxElement);
+                    break;
+                default:
+                    break;
             }
         }
     }
