@@ -8,14 +8,29 @@
     {
         public static void Main()
         {
-            var numbers = Console.ReadLine().Split();
-            var stack = new Stack<string>();
-
-            foreach (var number in numbers)
+            var inputData = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var elementsToAdd = inputData[0];
+            var countPops = inputData[1];
+            var elementToCheck = inputData[2];
+            var elements = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var stack = new Stack<int>();
+            for (int i = 0; i < elementsToAdd; i++)
             {
-                stack.Push(number);
+                stack.Push(elements[i]);
             }
-            Console.WriteLine(string.Join(" ", stack));
+            for (int i = 0; i < countPops; i++)
+            {
+                stack.Pop();
+            }
+            if (stack.Contains(elementToCheck))
+            {
+                Console.WriteLine(true);
+            }
+            else 
+            {
+                bool isEmpty = stack.Count == 0;
+                Console.WriteLine(isEmpty ? 0 : stack.Min());
+            }
         }
     }
 }
