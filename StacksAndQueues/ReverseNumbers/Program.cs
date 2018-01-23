@@ -1,12 +1,21 @@
-﻿using System;
-
-namespace ReverseNumbers
+﻿namespace ReverseNumbers
 {
-    class Program
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class Startup
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var numbers = Console.ReadLine().Split();
+            var stack = new Stack<string>();
+
+            foreach (var number in numbers)
+            {
+                stack.Push(number);
+            }
+            Console.WriteLine(string.Join(" ", stack));
         }
     }
 }
