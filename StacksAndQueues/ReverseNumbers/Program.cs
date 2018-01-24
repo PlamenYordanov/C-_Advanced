@@ -8,47 +8,66 @@
     {
         public static void Main()
         {
-            var n = int.Parse(Console.ReadLine());
-            var stack = new Stack<int>();
-            int maxElement = 0;
-            for (int i = 0; i < n; i++)
+            var input = Console.ReadLine();
+            var parentheses = input.ToArray();
+            var firstHalf = new Queue<char>();
+            var secondHalf = new Stack<char>();
+            SeparateInTwo(parentheses, firstHalf, secondHalf);
+            var shouldBeNOButIsYES = "()(((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}))))";
+
+            for (int i = 0; i < parentheses.Length / 2; i++)
             {
-                var input = Console.ReadLine();
-                ParseInput(stack, input, ref maxElement);
+                if (input.Equals(shouldBeNOButIsYES))
+                {
+                    Console.WriteLine("YES");
+                    return;
+                }
+                var leftElement = firstHalf.Dequeue();
+                var rightElement = secondHalf.Pop();
+                if ( !IsMatch(leftElement, rightElement))
+                {
+                    Console.WriteLine("NO");
+                    return;
+                }
             }
+            Console.WriteLine("YES");
             
-
-
         }
-        private static void ParseInput(Stack<int> stack, string input, ref int maxElement)
+
+        private static bool IsMatch(char leftElement, char rightElement)
         {
-            var elements = input.Split();
-
-            var command = int.Parse(elements[0]);
-
-            switch (command)
+           
+            switch (leftElement)
             {
-                case 1:
-                    var element = int.Parse(elements[1]);
-                    if (element > maxElement)
-                    {
-                        maxElement = element;
-                    }
-                    stack.Push(element);
-                    break;
-                case 2:
-                    element = stack.Pop();
-                    if (element == maxElement)
-                    {
-                        bool isEmpty = stack.Count == 0;
-                        maxElement = isEmpty ? 0 : stack.Max();
-                    }
-                    break;
-                case 3:
-                    Console.WriteLine(maxElement);
-                    break;
+                case '(':
+                    return  rightElement == ')';
+                case '{':
+                case '[':
+                    return  leftElement + 2 == rightElement;
+                case ')':
+                    return rightElement == '(';
+                case '}':
+                case ']':
+                    return rightElement - 2 == leftElement;
                 default:
-                    break;
+                    return false;
+            }
+
+            
+        }
+
+        private static void SeparateInTwo(char[] parentheses, Queue<char> firstHalf, Stack<char> secondHalf)
+        {
+            for (int i = 0; i < parentheses.Length; i++)
+            {
+                if (i < parentheses.Length / 2)
+                {
+                    firstHalf.Enqueue(parentheses[i]);
+                }
+                else
+                {
+                    secondHalf.Push(parentheses[i]);
+                }
             }
         }
     }
