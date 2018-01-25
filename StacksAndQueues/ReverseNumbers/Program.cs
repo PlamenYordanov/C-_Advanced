@@ -8,67 +8,32 @@
     {
         public static void Main()
         {
-            var input = Console.ReadLine();
-            var parentheses = input.ToArray();
-            var firstHalf = new Queue<char>();
-            var secondHalf = new Stack<char>();
-            SeparateInTwo(parentheses, firstHalf, secondHalf);
-            var shouldBeNOButIsYES = "()(((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}))))";
-
-            for (int i = 0; i < parentheses.Length / 2; i++)
-            {
-                if (input.Equals(shouldBeNOButIsYES))
-                {
-                    Console.WriteLine("YES");
-                    return;
-                }
-                var leftElement = firstHalf.Dequeue();
-                var rightElement = secondHalf.Pop();
-                if ( !IsMatch(leftElement, rightElement))
-                {
-                    Console.WriteLine("NO");
-                    return;
-                }
-            }
-            Console.WriteLine("YES");
+            int n = int.Parse(Console.ReadLine());
+            var fibMemory = EmptyMemory();
             
+            Console.WriteLine(Fib(n, fibMemory));
         }
-
-        private static bool IsMatch(char leftElement, char rightElement)
+        private static int Fib(int n, int[] fibMemory)
         {
-           
-            switch (leftElement)
+            if (n <= 1)
             {
-                case '(':
-                    return  rightElement == ')';
-                case '{':
-                case '[':
-                    return  leftElement + 2 == rightElement;
-                case ')':
-                    return rightElement == '(';
-                case '}':
-                case ']':
-                    return rightElement - 2 == leftElement;
-                default:
-                    return false;
+                return n;
             }
-
-            
+            if (fibMemory[n] != -1)
+            {
+                return fibMemory[n];
+            }
+            fibMemory[n] = Fib(n - 1, fibMemory) + Fib(n - 2, fibMemory);
+            return fibMemory[n];
         }
-
-        private static void SeparateInTwo(char[] parentheses, Queue<char> firstHalf, Stack<char> secondHalf)
+        private static int[] EmptyMemory()
         {
-            for (int i = 0; i < parentheses.Length; i++)
+            int[] memory = new int[51];
+            for (int i = 0; i < 51; i++)
             {
-                if (i < parentheses.Length / 2)
-                {
-                    firstHalf.Enqueue(parentheses[i]);
-                }
-                else
-                {
-                    secondHalf.Push(parentheses[i]);
-                }
+                memory[i] = -1;
             }
+            return memory; 
         }
     }
 }
