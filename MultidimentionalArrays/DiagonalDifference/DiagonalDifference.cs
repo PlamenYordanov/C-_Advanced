@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace DiagonalDifference
 {
-    public class Program
+    public class DiagonalDifference
     {
         public static void Main(string[] args)
         {
@@ -11,7 +11,9 @@ namespace DiagonalDifference
             int[,] matrix = new int[n, n];
             for (int i = 0; i < n; i++)
             {
-                var row = Console.ReadLine().Split().Select(int.Parse).ToArray();
+                var row = Console.ReadLine()
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse).ToArray();
                 AddRowToMatrix(matrix, row, i);
             }
             int left = GetLeftDiagonalSum(matrix);

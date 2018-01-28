@@ -2,7 +2,8 @@
 
 namespace MatrixOfPalindromes
 {
-    public class Startup
+    public class MatrixPolindromes
+
     {
         public static void Main()
         {
