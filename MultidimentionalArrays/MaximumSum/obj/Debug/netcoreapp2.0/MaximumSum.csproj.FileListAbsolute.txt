@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\bin\Debug\netcoreapp2.0\MaximumSum.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\bin\Debug\netcoreapp2.0\MaximumSum.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\bin\Debug\netcoreapp2.0\MaximumSum.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\bin\Debug\netcoreapp2.0\MaximumSum.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\bin\Debug\netcoreapp2.0\MaximumSum.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MaximumSum\obj\Debug\netcoreapp2.0\MaximumSum.pdb

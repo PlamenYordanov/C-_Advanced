@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace SquaresInMatrix
+﻿namespace SquaresInMatrix
 {
+    using System;
+    using System.Linq;
+
     public class SquareMatrix
     {
         public static void Main()
@@ -31,6 +31,7 @@ namespace SquaresInMatrix
                 matrix[j, i] = elements[i];
             }
         }
+
         private static int EqualSquareCount(int[,] matrix)
         {
             int squareCount = 0;
@@ -42,6 +43,7 @@ namespace SquaresInMatrix
 
             return squareCount;
         }
+
         private static int SquaresInRow(int[,] matrix, int row)
         {
             int squares = 0;
