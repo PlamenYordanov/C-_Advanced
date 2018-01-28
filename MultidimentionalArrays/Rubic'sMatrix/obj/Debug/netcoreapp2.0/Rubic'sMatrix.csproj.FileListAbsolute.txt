@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\bin\Debug\netcoreapp2.0\Rubic'sMatrix.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\bin\Debug\netcoreapp2.0\Rubic'sMatrix.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\bin\Debug\netcoreapp2.0\Rubic'sMatrix.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\bin\Debug\netcoreapp2.0\Rubic'sMatrix.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\bin\Debug\netcoreapp2.0\Rubic'sMatrix.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\Rubic'sMatrix\obj\Debug\netcoreapp2.0\Rubic'sMatrix.pdb
