@@ -1,0 +1,10 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\bin\Debug\netcoreapp2.0\DiagonalDifference.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\bin\Debug\netcoreapp2.0\DiagonalDifference.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\bin\Debug\netcoreapp2.0\DiagonalDifference.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\bin\Debug\netcoreapp2.0\DiagonalDifference.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\bin\Debug\netcoreapp2.0\DiagonalDifference.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\obj\Debug\netcoreapp2.0\DiagonalDifference.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\obj\Debug\netcoreapp2.0\DiagonalDifference.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\obj\Debug\netcoreapp2.0\DiagonalDifference.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\obj\Debug\netcoreapp2.0\DiagonalDifference.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\DiagonalDifference\obj\Debug\netcoreapp2.0\DiagonalDifference.pdb

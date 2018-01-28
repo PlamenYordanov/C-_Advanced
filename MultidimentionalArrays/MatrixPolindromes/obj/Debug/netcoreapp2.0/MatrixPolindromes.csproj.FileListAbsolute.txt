@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\bin\Debug\netcoreapp2.0\MatrixPolindromes.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\bin\Debug\netcoreapp2.0\MatrixPolindromes.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\bin\Debug\netcoreapp2.0\MatrixPolindromes.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\bin\Debug\netcoreapp2.0\MatrixPolindromes.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\bin\Debug\netcoreapp2.0\MatrixPolindromes.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\MultidimentionalArrays\MatrixPolindromes\obj\Debug\netcoreapp2.0\MatrixPolindromes.pdb
