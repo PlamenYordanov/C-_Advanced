@@ -1,0 +1,13 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\LineNumbers.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\LineNumbers.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\LineNumbers.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\LineNumbers.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\LineNumbers.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\OddLines.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\bin\Debug\netcoreapp2.0\OddLines.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FilesAndStreams\LineNumbers\obj\Debug\netcoreapp2.0\LineNumbers.pdb

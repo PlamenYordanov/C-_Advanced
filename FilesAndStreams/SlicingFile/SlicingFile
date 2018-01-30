@@ -1,0 +1,42 @@
+﻿namespace SlicingFile
+{
+    using System;
+    using System.IO;
+
+    public class SlicingFile
+    {
+        public static void Main()
+        {
+            int parts = int.Parse(Console.ReadLine());
+            string inputFile = @"..\OddLines\Files\sliceMe.mp4";
+            string writePath = @"..\OddLines\Files\";
+            long length = new System.IO.FileInfo(inputFile).Length;
+            var chunk
+            Slice(inputFile, chunkSize, writePath);
+        }
+        public static void Slice(string inputFile, int chunkSize, string writePath)
+        {
+            const int BUFFER_SIZE = 20 * 1024;
+            byte[] buffer = new byte[BUFFER_SIZE];
+
+            using (Stream input = File.OpenRead(inputFile))
+            {
+                int index = 0;
+                while (input.Position < input.Length)
+                {
+                    using (Stream output = File.Create(writePath + "\\" + index))
+                    {
+                        int remaining = chunkSize, bytesRead;
+                        while (remaining > 0 && (bytesRead = input.Read(buffer, 0,
+                                Math.Min(remaining, BUFFER_SIZE))) > 0)
+                        {
+                            output.Write(buffer, 0, bytesRead);
+                            remaining -= bytesRead;
+                        }
+                    }
+                    index++;
+                }
+            }
+        }
+    }
+}
