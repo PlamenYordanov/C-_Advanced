@@ -55,7 +55,7 @@
             string emptyList = $"Nobody is going to the party!";
             string notEmptyList = $"are going to the party!";
             var people = partyList.Select(p => p.Name).ToArray();
-            Console.WriteLine(isEmpty ? emptyList : $"{string.Join(", ", partyList.OrderBy(x => x.Name))} {notEmptyList}");
+            Console.WriteLine(isEmpty ? emptyList : $"{string.Join(", ", partyList)} {notEmptyList}");
         }
 
         private static void DoublePeople(List<Person> partyList, List<Person> matchingPeople)

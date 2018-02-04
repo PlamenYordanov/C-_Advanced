@@ -1,0 +1,10 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\bin\Debug\netcoreapp2.0\TriFunction.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\bin\Debug\netcoreapp2.0\TriFunction.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\bin\Debug\netcoreapp2.0\TriFunction.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\bin\Debug\netcoreapp2.0\TriFunction.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\bin\Debug\netcoreapp2.0\TriFunction.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\obj\Debug\netcoreapp2.0\TriFunction.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\obj\Debug\netcoreapp2.0\TriFunction.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\obj\Debug\netcoreapp2.0\TriFunction.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\obj\Debug\netcoreapp2.0\TriFunction.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\TriFunction\obj\Debug\netcoreapp2.0\TriFunction.pdb
