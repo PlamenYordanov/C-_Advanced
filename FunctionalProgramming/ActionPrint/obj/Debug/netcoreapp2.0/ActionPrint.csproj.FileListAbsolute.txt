@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\bin\Debug\netcoreapp2.0\ActionPrint.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\bin\Debug\netcoreapp2.0\ActionPrint.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\bin\Debug\netcoreapp2.0\ActionPrint.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\bin\Debug\netcoreapp2.0\ActionPrint.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\bin\Debug\netcoreapp2.0\ActionPrint.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\ActionPrint\obj\Debug\netcoreapp2.0\ActionPrint.pdb
