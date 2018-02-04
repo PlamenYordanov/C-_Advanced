@@ -6,39 +6,37 @@
 
     public class ActionPrint
     {
+
         public static void Main()
         {
-            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
-            var input = string.Empty;
-            Func<int, int> arithmeticFunc = null;
-            while ((input = Console.ReadLine()) != "end")
+            int upperRange = int.Parse(Console.ReadLine());
+
+            var dividers = Console.ReadLine().Split(new char[] { ' ' }
+            , StringSplitOptions.RemoveEmptyEntries)
+            .Distinct()
+            .Select(int.Parse)
+            .ToList();
+            var filters = dividers.Select(d => (Func<int, bool>)(n => n % d == 0)).ToList();
+            var dividends = new List<int>();
+            for (int i = 1; i <= upperRange; i++)
             {
-                switch (input)
+                bool approved = true;
+                foreach (var filter in filters)
                 {
-                    case "add":
-                        arithmeticFunc = n => n + 1;
-                        break;
-                    case "multiply":
-                        arithmeticFunc = n => n * 2;
-                        break;
-                    case "subtract":
-                        arithmeticFunc = n => n - 1;
-                        break;
-                    case "print":
-                        Console.WriteLine(string.Join(" ", numbers));
-                        continue;
-                    default:
-                        break;
+                    if (!filter(i))
+                    {
+                        approved = false;
+                        break ;
+                    }
                 }
-                ApplyArithmetics(numbers, arithmeticFunc);
+                if (approved)
+                {
+                    dividends.Add(i);
+
+                }
+
             }
-        }
-        static void ApplyArithmetics(List<int> numbers, Func<int, int> func)
-        {
-            for (int i = 0; i < numbers.Count; i++)
-            {
-                numbers[i] = func(numbers[i]);
-            }
+            Console.WriteLine(string.Join(" ", dividends));
         }
     }
 }
