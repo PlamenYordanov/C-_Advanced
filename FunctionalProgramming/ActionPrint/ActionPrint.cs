@@ -8,29 +8,36 @@
     {
         public static void Main()
         {
-            var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            string evenOrOdd = Console.ReadLine();
-
-            Predicate<int> evenOrOddFinder = (i) => { return i % 2 == 0; };
-            if (evenOrOdd.Equals("odd"))
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var input = string.Empty;
+            Func<int, int> arithmeticFunc = null;
+            while ((input = Console.ReadLine()) != "end")
             {
-                evenOrOddFinder = (i) => { return i % 2 != 0; };
-            }
-
-            var result = GetEvenOrOddElements(numbers, evenOrOddFinder);
-            Console.WriteLine(string.Join(" ", result));
-        }
-        static IEnumerable<int> GetEvenOrOddElements(int[] numbers, Predicate<int> getEvenOrOdd)
-        {
-            int lowerEnd = numbers[0];
-            int upperEnd = numbers[1];
-
-            for (int i = lowerEnd; i <= upperEnd; i++)
-            {
-                if (getEvenOrOdd(i))
+                switch (input)
                 {
-                    yield return i;
+                    case "add":
+                        arithmeticFunc = n => n + 1;
+                        break;
+                    case "multiply":
+                        arithmeticFunc = n => n * 2;
+                        break;
+                    case "subtract":
+                        arithmeticFunc = n => n - 1;
+                        break;
+                    case "print":
+                        Console.WriteLine(string.Join(" ", numbers));
+                        continue;
+                    default:
+                        break;
                 }
+                ApplyArithmetics(numbers, arithmeticFunc);
+            }
+        }
+        static void ApplyArithmetics(List<int> numbers, Func<int, int> func)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                numbers[i] = func(numbers[i]);
             }
         }
     }
