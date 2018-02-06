@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\bin\Debug\netcoreapp2.0\DangerousFloor.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\bin\Debug\netcoreapp2.0\DangerousFloor.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\bin\Debug\netcoreapp2.0\DangerousFloor.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\bin\Debug\netcoreapp2.0\DangerousFloor.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\bin\Debug\netcoreapp2.0\DangerousFloor.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\DangerousFloor\obj\Debug\netcoreapp2.0\DangerousFloor.pdb

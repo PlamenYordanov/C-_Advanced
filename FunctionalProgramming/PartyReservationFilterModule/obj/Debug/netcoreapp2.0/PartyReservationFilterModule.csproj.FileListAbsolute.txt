@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\bin\Debug\netcoreapp2.0\PartyReservationFilterModule.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\bin\Debug\netcoreapp2.0\PartyReservationFilterModule.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\bin\Debug\netcoreapp2.0\PartyReservationFilterModule.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\bin\Debug\netcoreapp2.0\PartyReservationFilterModule.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\bin\Debug\netcoreapp2.0\PartyReservationFilterModule.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\FunctionalProgramming\PartyReservationFilterModule\obj\Debug\netcoreapp2.0\PartyReservationFilterModule.pdb

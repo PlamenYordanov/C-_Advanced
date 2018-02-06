@@ -1,0 +1,11 @@
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\bin\Debug\netcoreapp2.0\CryptoMaster.deps.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\bin\Debug\netcoreapp2.0\CryptoMaster.runtimeconfig.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\bin\Debug\netcoreapp2.0\CryptoMaster.runtimeconfig.dev.json
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\bin\Debug\netcoreapp2.0\CryptoMaster.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\bin\Debug\netcoreapp2.0\CryptoMaster.pdb
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.csprojResolveAssemblyReference.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.csproj.CoreCompileInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.AssemblyInfoInputs.cache
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.AssemblyInfo.cs
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.dll
+C:\Users\Plamen Yordanov\source\C#_Advanced\AdvancedExamRetake 3September2017\CryptoMaster\obj\Debug\netcoreapp2.0\CryptoMaster.pdb
